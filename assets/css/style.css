@@ -3,6 +3,7 @@ body{
 }
 .my-nav{
     background-color: rgba(209, 7, 84, 0.994);
+    
 }
 
 .nav-right {
@@ -13,10 +14,14 @@ body{
 nav {
     display: flex;
     justify-content: space-between;
+}
 
-
-  
-
+.nav-item{
+    padding: 10px;
+}
+.nav-item:hover{
+background-color: pink;
+border-radius: 5px;
 }
 
 
@@ -43,6 +48,12 @@ nav {
 
 #posts{
     margin-top: -20px;
+ 
+   
+    
+
+  
+
 }
 .text-1{
     color: white;
@@ -80,10 +91,22 @@ nav {
     margin: auto;
     width: 70%;
 }
+.card-6{
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+.body-6{
+    background-color: rgba(235, 2, 68, 0.901);
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    color: black;
+}
 
 footer{
     background-color: rgba(209, 7, 84, 0.994);
-    color: white;
+color: white;
 }
 
 
