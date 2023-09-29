@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(60, 30, 62);
+}
+.my-nav{
+    background-color: rgba(209, 7, 84, 0.994);
+}
+
+.nav-right {
+    width: 100%;
+    justify-content: flex-end;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+
+  
+
+}
+
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    padding: 2px;
+   
+
+}
+
+.bg-1{
+
+    width: 50%;
+    display: block;
+    margin: auto;
+  
+    
+ 
+}
+
+
+#posts{
+    margin-top: -80px;
+}
+.text-1{
+    color: white;
+}
+.text-3{
+    color: aliceblue;
+    
+
+}
+.btn{
+    display: block;
+    margin: auto;
+    background-color:rgba(235, 2, 68, 0.901) ;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(237, 85, 108);
+}
+
+.card-body{
+    background-color:lightpink;
+}
+.card-footer{
+    background-color:rgb(237, 85, 108) ;
+}
+
+
+footer{
+    background-color: rgb(20, 1, 36);
+    color: white;
+}
+
+
+
+
+
